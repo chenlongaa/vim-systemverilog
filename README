@@ -6,3 +6,7 @@ With this fixed version, the key "%" (matchit.vim) works for Verilog/SystemVeril
 
 The fix is done based on version 1.2 of "verilog_systemverilog.vim".
 
+Changes by Eddie:
+
+Added folding expression:
+Currently folds functions, tasks
