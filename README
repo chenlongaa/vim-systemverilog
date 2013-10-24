@@ -10,3 +10,5 @@ Changes by Eddie:
 
 Added folding expression:
 Currently folds functions, tasks
+
+Added matchit words for matchit.vim
