@@ -42,7 +42,8 @@ let b:match_words=
   \ '\<task\>:\<endtask\>,' .
   \ '\<case\>\|\<casex\>\|\<casez\>:\<endcase\>,' .
   \ '\<fork\>:\<join\>\|\<join_any\>\|\<join_none\>,' .
-  \ '`ifdef\>:`else\>:`endif\>,'
+  \ '`ifdef\>:`else\>:`endif\>,' .
+  \ '\<generate\>:\<endgenerate\>,'
 endif
 
 " Behaves just like Verilog
