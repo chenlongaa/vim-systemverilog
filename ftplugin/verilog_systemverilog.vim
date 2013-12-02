@@ -21,6 +21,9 @@ function! MyFoldExpr(line)
    endif
 endfunction
 
+" Behaves just like Verilog
+"
+runtime! ftplugin/verilog.vim
 if exists('loaded_matchit')
 let b:match_ignorecase=0
 let b:match_words=
@@ -46,6 +49,3 @@ let b:match_words=
   \ '\<generate\>:\<endgenerate\>,'
 endif
 
-" Behaves just like Verilog
-"
-runtime! ftplugin/verilog.vim
