@@ -12,3 +12,5 @@ Added folding expression:
 Currently folds functions, tasks
 
 Added matchit words for matchit.vim
+
+Added ovm functions, based on http://verifideas.blogspot.com/2008/09/better-syntax-highlighting-in.html
