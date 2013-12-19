@@ -1,16 +1,20 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=3332
 
 This is the "bug fix" version of "verilog_systemverilog.vim" vimscript #1586 created by Amit Sethi.
 
 With this fixed version, the key "%" (matchit.vim) works for Verilog/SystemVerilog files, which doesn't work for the original version.
 
-The fix is done based on version 1.2 of "verilog_systemverilog.vim".
+The fix is done based on version 1.2 of "verilog_systemverilog.vim created by Amit Sethi".
 
-Changes by Eddie:
+New features and changes since branch
 
 Added folding expression:
 Currently folds functions, tasks
 
 Added matchit words for matchit.vim
 
-Added ovm functions, based on http://verifideas.blogspot.com/2008/09/better-syntax-highlighting-in.html
+Added ovm functions to syntax highlighting, based on http://verifideas.blogspot.com/2008/09/better-syntax-highlighting-in.html
+
+Fixed many indent issues
+
+
+
