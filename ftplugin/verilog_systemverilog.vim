@@ -13,7 +13,7 @@ set foldmethod=expr
 set foldexpr=MyFoldExpr(v:lnum)
 function! MyFoldExpr(line)
    let str = getline(a:line)   
-   if str =~ '^\s*(task\s' || str =~ '^\s*function\s' ||str=~'`ovm_object_utils_begin'
+   if str =~ '^\s*task\s' || str =~ '^\s*function\s' ||str=~'`ovm_object_utils_begin'
       return 'a1'   
    elseif str =~ '^\s*endtask' || str =~ '^\s*endfunction' || str=~'`ovm_object_utils_end'
       return 's1'
